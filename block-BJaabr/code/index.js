@@ -41,19 +41,32 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
-
+function addOne(num)
+{
+  return(num+1);
+}
 // - Write a Function Expression
+let addOne = function(num)
+{
+  return(num+1);
+}
 
 // - Write an Arrow Function without curly brackets(if possible)
+let addOne = (num) => num+1;
 
 // - Write an Arrow Function with curly brackets
+let addOne = (num)
+{
+  return (num+1);
+}
 
 // - Execute the function
-
+addOne(5)
 // - Execute the function and store the return value in a variable.
+let add = addone(5)
 
 // - What is the typeof returnValue
-
+ Number
 /* 2. Subtract one
 
 Write a function named `substractOne` that accepts a number, substracts one from the given value and return it. (hint: use return keyword)
@@ -62,19 +75,29 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
-
+function substractOne(num)
+{
+  return(num-1);
+}
 // - Write a Function Expression
+let substractOne = function(num)
+{
+  return(num-1);
+}
 
 // - Write an Arrow Function without curly brackets(if possible)
-
+let substractOne = (num) => num-1;
 // - Write an Arrow Function with curly brackets
-
+let substractOne = (num)
+{
+  return(num-1);
+}
 // - Execute the function
-
+substractOne(10)
 // - Execute the function and store the return value in a variable.
-
+9
 // - What is the typeof returnValue
-
+Number
 /* 3. Add two numbers
 
 Write a function named `sum` that accepts two numbers and returns the sum of them.
@@ -83,19 +106,23 @@ Do the following with above problem.
 */
 
 // - Write a Function Declaration
-
+function sum(numA , numB){
+  return(numA+numB);
+}
 // - Write a Function Expression
-
+let sum = function(numA, numB){
+  return (numA+numB);
+}
 // - Write an Arrow Function without curly brackets(if possible)
-
+let sum = (numA, numB) => numA+numB;
 // - Write an Arrow Function with curly brackets
 
 // - Execute the function
-
+sum(5,7);
 // - Execute the function and store the return value in a variable
-
+let addition = sum(5,7)
 // - What is the typeof returnValue
-
+number
 /* 4. Square of the given value
 
 Write a function named `square` that accepts a number and returns the square of the number.
